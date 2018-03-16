@@ -16,6 +16,14 @@
     }
     return self;
 }
+/**  clang -rewrite-objc Test.m
+ static instancetype _I_Test_init(Test * self, SEL _cmd) {
+ if (self = ((Test *(*)(__rw_objc_super *, SEL))(void *)objc_msgSendSuper)((__rw_objc_super){(id)self, (id)class_getSuperclass(objc_getClass("Test"))}, sel_registerName("init"))) {
+ ((void (*)(id, SEL))(void *)objc_msgSend)((id)self, sel_registerName("show"));
+ }
+ return self;
+ }
+ */
 
 - (void)show{
     NSLog(@"%s ",__FUNCTION__);
