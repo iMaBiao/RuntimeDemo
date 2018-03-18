@@ -22,6 +22,7 @@
 		07B83936205BA7D000CBC223 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B83935205BA7D000CBC223 /* Bird.m */; };
 		07C2713E205EA49C00310E59 /* UIImage+MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2713D205EA49C00310E59 /* UIImage+MBImage.m */; };
 		07C27141205EA67F00310E59 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C27140205EA67F00310E59 /* Person.m */; };
+		07C27147205EB04800310E59 /* Person+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C27146205EB04800310E59 /* Person+Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		07C2713D205EA49C00310E59 /* UIImage+MBImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MBImage.m"; sourceTree = "<group>"; };
 		07C2713F205EA67F00310E59 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		07C27140205EA67F00310E59 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		07C27145205EB04800310E59 /* Person+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Property.h"; sourceTree = "<group>"; };
+		07C27146205EB04800310E59 /* Person+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Property.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				07C2713D205EA49C00310E59 /* UIImage+MBImage.m */,
 				07C2713F205EA67F00310E59 /* Person.h */,
 				07C27140205EA67F00310E59 /* Person.m */,
+				07C27145205EB04800310E59 /* Person+Property.h */,
+				07C27146205EB04800310E59 /* Person+Property.m */,
 				07B83912205A730200CBC223 /* Main.storyboard */,
 				07B83915205A730200CBC223 /* Assets.xcassets */,
 				07B83917205A730200CBC223 /* LaunchScreen.storyboard */,
@@ -196,6 +201,7 @@
 				07C27141205EA67F00310E59 /* Person.m in Sources */,
 				07B83930205B72A000CBC223 /* NSObject+KeyValues.m in Sources */,
 				07B83927205B612A00CBC223 /* TestSon.m in Sources */,
+				07C27147205EB04800310E59 /* Person+Property.m in Sources */,
 				07B8391C205A730200CBC223 /* main.m in Sources */,
 				07B8392D205B6A9200CBC223 /* TestModel.m in Sources */,
 				07B8390E205A730200CBC223 /* AppDelegate.m in Sources */,

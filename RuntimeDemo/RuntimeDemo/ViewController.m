@@ -20,6 +20,7 @@
 #import "Monkey.h"
 #import "UIImage+MBImage.h"
 #import "Person.h"
+#import "Person+Property.h"
 
 @interface ViewController ()
 
@@ -70,13 +71,18 @@
 //    UIImage *image = [UIImage imageNamed:@"pic1"];
     
 //动态添加方法
-    Person *p1 = [[Person alloc]init];
+//    Person *p1 = [[Person alloc]init];
     
     //performSelector:  某个对象去调用某个方法
-    [p1 performSelector:@selector(eat)];
-    
-    [p1 performSelector:@selector(run:) withObject:@10];
+//    [p1 performSelector:@selector(eat)];
+//
+//    [p1 performSelector:@selector(run:) withObject:@10];
 
+//动态添加属性
+    Person *p2 = [[Person alloc]init];
+    p2.name  = @"添加的属性";
+    NSLog(@"p2.name = %@",p2.name);
+    
 }
 
 //动态方法解析
