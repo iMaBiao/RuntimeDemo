@@ -18,6 +18,8 @@
 #import "TestModel.h"
 #import "NSObject+KeyValues.h"
 #import "Monkey.h"
+#import "UIImage+MBImage.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -47,18 +49,33 @@
                            }
                    };
 
-
+//使用objc_msgSend调用方法
 //    [self msgSendTest];
 
 //    TestSon *son = [[TestSon alloc]init];
 
+//对象关联 给Category添加属性
 //    [self buttonTest];
 
+//字典与模型互转
 //    [self keyValueTest];
 
+//自动归档
 //    [self keyedArchiverTest];
 
-    [self forwardingTest];
+//动态方法解析
+//    [self forwardingTest];
+    
+//方法交换
+//    UIImage *image = [UIImage imageNamed:@"pic1"];
+    
+//动态添加方法
+    Person *p1 = [[Person alloc]init];
+    
+    //performSelector:  某个对象去调用某个方法
+    [p1 performSelector:@selector(eat)];
+    
+    [p1 performSelector:@selector(run:) withObject:@10];
 
 }
 

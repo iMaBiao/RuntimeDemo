@@ -20,6 +20,8 @@
 		07B83930205B72A000CBC223 /* NSObject+KeyValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B8392F205B72A000CBC223 /* NSObject+KeyValues.m */; };
 		07B83933205BA7BC00CBC223 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B83932205BA7BC00CBC223 /* Monkey.m */; };
 		07B83936205BA7D000CBC223 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B83935205BA7D000CBC223 /* Bird.m */; };
+		07C2713E205EA49C00310E59 /* UIImage+MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2713D205EA49C00310E59 /* UIImage+MBImage.m */; };
+		07C27141205EA67F00310E59 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C27140205EA67F00310E59 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,10 @@
 		07B83932205BA7BC00CBC223 /* Monkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monkey.m; sourceTree = "<group>"; };
 		07B83934205BA7D000CBC223 /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
 		07B83935205BA7D000CBC223 /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		07C2713C205EA49C00310E59 /* UIImage+MBImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MBImage.h"; sourceTree = "<group>"; };
+		07C2713D205EA49C00310E59 /* UIImage+MBImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MBImage.m"; sourceTree = "<group>"; };
+		07C2713F205EA67F00310E59 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		07C27140205EA67F00310E59 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,10 @@
 				07B83932205BA7BC00CBC223 /* Monkey.m */,
 				07B83934205BA7D000CBC223 /* Bird.h */,
 				07B83935205BA7D000CBC223 /* Bird.m */,
+				07C2713C205EA49C00310E59 /* UIImage+MBImage.h */,
+				07C2713D205EA49C00310E59 /* UIImage+MBImage.m */,
+				07C2713F205EA67F00310E59 /* Person.h */,
+				07C27140205EA67F00310E59 /* Person.m */,
 				07B83912205A730200CBC223 /* Main.storyboard */,
 				07B83915205A730200CBC223 /* Assets.xcassets */,
 				07B83917205A730200CBC223 /* LaunchScreen.storyboard */,
@@ -180,8 +190,10 @@
 				07B83936205BA7D000CBC223 /* Bird.m in Sources */,
 				07B83933205BA7BC00CBC223 /* Monkey.m in Sources */,
 				07B83911205A730200CBC223 /* ViewController.m in Sources */,
+				07C2713E205EA49C00310E59 /* UIImage+MBImage.m in Sources */,
 				07B83924205A732500CBC223 /* Test.m in Sources */,
 				07B8392A205B647100CBC223 /* UIButton+ClickBlock.m in Sources */,
+				07C27141205EA67F00310E59 /* Person.m in Sources */,
 				07B83930205B72A000CBC223 /* NSObject+KeyValues.m in Sources */,
 				07B83927205B612A00CBC223 /* TestSon.m in Sources */,
 				07B8391C205A730200CBC223 /* main.m in Sources */,
