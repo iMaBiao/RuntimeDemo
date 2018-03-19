@@ -21,6 +21,7 @@
 #import "UIImage+MBImage.h"
 #import "Person.h"
 #import "Person+Property.h"
+#import "UIButton+MultiClick.h"
 
 @interface ViewController ()
 
@@ -79,10 +80,20 @@
 //    [p1 performSelector:@selector(run:) withObject:@10];
 
 //动态添加属性
-    Person *p2 = [[Person alloc]init];
-    p2.name  = @"添加的属性";
-    NSLog(@"p2.name = %@",p2.name);
+//    Person *p2 = [[Person alloc]init];
+//    p2.name  = @"添加的属性";
+//    NSLog(@"p2.name = %@",p2.name);
     
+    //UIButton 重复点击问题
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:btn];
+    btn.frame = self.view.bounds;
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    btn.acceptEventInterval = 1;
+}
+- (void)btnClick
+{
+    NSLog(@"btnClick");
 }
 
 //动态方法解析

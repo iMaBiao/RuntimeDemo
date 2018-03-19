@@ -23,6 +23,7 @@
 		07C2713E205EA49C00310E59 /* UIImage+MBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2713D205EA49C00310E59 /* UIImage+MBImage.m */; };
 		07C27141205EA67F00310E59 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C27140205EA67F00310E59 /* Person.m */; };
 		07C27147205EB04800310E59 /* Person+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C27146205EB04800310E59 /* Person+Property.m */; };
+		07C2714A205F53F000310E59 /* UIButton+MultiClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C27149205F53F000310E59 /* UIButton+MultiClick.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		07C27140205EA67F00310E59 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		07C27145205EB04800310E59 /* Person+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Property.h"; sourceTree = "<group>"; };
 		07C27146205EB04800310E59 /* Person+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Property.m"; sourceTree = "<group>"; };
+		07C27148205F53F000310E59 /* UIButton+MultiClick.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MultiClick.h"; sourceTree = "<group>"; };
+		07C27149205F53F000310E59 /* UIButton+MultiClick.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MultiClick.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				07C27140205EA67F00310E59 /* Person.m */,
 				07C27145205EB04800310E59 /* Person+Property.h */,
 				07C27146205EB04800310E59 /* Person+Property.m */,
+				07C27148205F53F000310E59 /* UIButton+MultiClick.h */,
+				07C27149205F53F000310E59 /* UIButton+MultiClick.m */,
 				07B83912205A730200CBC223 /* Main.storyboard */,
 				07B83915205A730200CBC223 /* Assets.xcassets */,
 				07B83917205A730200CBC223 /* LaunchScreen.storyboard */,
@@ -194,6 +199,7 @@
 			files = (
 				07B83936205BA7D000CBC223 /* Bird.m in Sources */,
 				07B83933205BA7BC00CBC223 /* Monkey.m in Sources */,
+				07C2714A205F53F000310E59 /* UIButton+MultiClick.m in Sources */,
 				07B83911205A730200CBC223 /* ViewController.m in Sources */,
 				07C2713E205EA49C00310E59 /* UIImage+MBImage.m in Sources */,
 				07B83924205A732500CBC223 /* Test.m in Sources */,
