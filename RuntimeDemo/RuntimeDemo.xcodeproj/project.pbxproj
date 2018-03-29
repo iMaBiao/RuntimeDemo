@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076F1497206C749F0021E546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 076F1499206C749F0021E546 /* InfoPlist.strings */; };
+		076F149D206C8CF40021E546 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 076F149F206C8CF40021E546 /* Localizable.strings */; };
+		076F14A4206C8DDB0021E546 /* AutoGenStrings.py in Resources */ = {isa = PBXBuildFile; fileRef = 076F14A3206C8DDB0021E546 /* AutoGenStrings.py */; };
+		076F14A8206C8F3A0021E546 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 076F14AA206C8F3A0021E546 /* TestView.xib */; };
 		07B8390E205A730200CBC223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B8390D205A730200CBC223 /* AppDelegate.m */; };
 		07B83911205A730200CBC223 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B83910205A730200CBC223 /* ViewController.m */; };
 		07B83914205A730200CBC223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B83912205A730200CBC223 /* Main.storyboard */; };
@@ -27,6 +31,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076F1493206C74430021E546 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		076F1494206C74430021E546 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		076F1498206C749F0021E546 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		076F149A206C74AC0021E546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		076F149E206C8CF40021E546 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		076F14A0206C8CF60021E546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		076F14A3206C8DDB0021E546 /* AutoGenStrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AutoGenStrings.py; sourceTree = "<group>"; };
+		076F14A9206C8F3A0021E546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TestView.xib; sourceTree = "<group>"; };
+		076F14AC206C8F3B0021E546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TestView.strings; sourceTree = "<group>"; };
+		076F14AE206C8F3C0021E546 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TestView.strings"; sourceTree = "<group>"; };
 		07B83909205A730200CBC223 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B8390C205A730200CBC223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07B8390D205A730200CBC223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +86,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076F14A1206C8DA20021E546 /* Internationalization */ = {
+			isa = PBXGroup;
+			children = (
+				076F14A2206C8DDB0021E546 /* RunScript */,
+				076F1499206C749F0021E546 /* InfoPlist.strings */,
+				076F149F206C8CF40021E546 /* Localizable.strings */,
+				076F14AA206C8F3A0021E546 /* TestView.xib */,
+			);
+			path = Internationalization;
+			sourceTree = "<group>";
+		};
+		076F14A2206C8DDB0021E546 /* RunScript */ = {
+			isa = PBXGroup;
+			children = (
+				076F14A3206C8DDB0021E546 /* AutoGenStrings.py */,
+			);
+			path = RunScript;
+			sourceTree = "<group>";
+		};
 		07B83900205A730200CBC223 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +154,7 @@
 				07B83915205A730200CBC223 /* Assets.xcassets */,
 				07B83917205A730200CBC223 /* LaunchScreen.storyboard */,
 				07B8391A205A730200CBC223 /* Info.plist */,
+				076F14A1206C8DA20021E546 /* Internationalization */,
 				07B8391B205A730200CBC223 /* main.m */,
 			);
 			path = RuntimeDemo;
@@ -136,6 +170,7 @@
 				07B83905205A730200CBC223 /* Sources */,
 				07B83906205A730200CBC223 /* Frameworks */,
 				07B83907205A730200CBC223 /* Resources */,
+				076F14A5206C8E390021E546 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -168,6 +203,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 07B83900205A730200CBC223;
 			productRefGroup = 07B8390A205A730200CBC223 /* Products */;
@@ -184,13 +220,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076F149D206C8CF40021E546 /* Localizable.strings in Resources */,
 				07B83919205A730200CBC223 /* LaunchScreen.storyboard in Resources */,
+				076F1497206C749F0021E546 /* InfoPlist.strings in Resources */,
+				076F14A4206C8DDB0021E546 /* AutoGenStrings.py in Resources */,
 				07B83916205A730200CBC223 /* Assets.xcassets in Resources */,
+				076F14A8206C8F3A0021E546 /* TestView.xib in Resources */,
 				07B83914205A730200CBC223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		076F14A5206C8E390021E546 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/${TARGET_NAME}/Internationalization/RunScript/AutoGenStrings.py ${SRCROOT}/${TARGET_NAME}";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07B83905205A730200CBC223 /* Sources */ = {
@@ -217,10 +273,39 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		076F1499206C749F0021E546 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076F1498206C749F0021E546 /* zh-Hans */,
+				076F149A206C74AC0021E546 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		076F149F206C8CF40021E546 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076F149E206C8CF40021E546 /* zh-Hans */,
+				076F14A0206C8CF60021E546 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		076F14AA206C8F3A0021E546 /* TestView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076F14A9206C8F3A0021E546 /* Base */,
+				076F14AC206C8F3B0021E546 /* en */,
+				076F14AE206C8F3C0021E546 /* zh-Hans */,
+			);
+			name = TestView.xib;
+			sourceTree = "<group>";
+		};
 		07B83912205A730200CBC223 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				07B83913205A730200CBC223 /* Base */,
+				076F1493206C74430021E546 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -229,6 +314,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				07B83918205A730200CBC223 /* Base */,
+				076F1494206C74430021E546 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -295,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -346,6 +434,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = QUMSF8EMJ8;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -362,6 +452,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
 				DEVELOPMENT_TEAM = QUMSF8EMJ8;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  RuntimeDemo
+
+  Created by MaBiao on 2018/3/29.
+  Copyright © 2018年 BiaoMa. All rights reserved.
+ 代码国际化
+*/
+
+/*
+ 
+ //代码
+ self.title = NSLocalizedString(@"首页", @"首页");
+ //国际化文件设置
+ 英文："首页" = "Home";
+ 
+ 要点：NSLocalizedString传递的第一个参数是当前国际化文字的key，第二个参数是注释comment，这个参数可有可为nil；当国际化文件某一语言中没有对应的指定国际化信息的时候，默认会以key的值来显示，所以在上面示例中没有中文国际化的代码。
+ */

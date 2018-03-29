@@ -1,0 +1,21 @@
+
+
+
+//##################################################################################
+//#           AutoGenStrings            2018-03-29 11:10:02
+//##################################################################################
+
+/* Class = "UILabel"; text = "测试Label"; ObjectID = "JfP-j1-gr6"; */
+"JfP-j1-gr6.text" = "测试Label";
+
+
+"AdG-dg-Kfx.segmentTitles[0]" = "第一";
+
+
+"AdG-dg-Kfx.segmentTitles[1]" = "第二";
+
+/* Class = "UITextField"; placeholder = "测试框"; ObjectID = "RXG-Jf-d1k"; */
+"RXG-Jf-d1k.placeholder" = "测试框";
+
+/* Class = "UIButton"; normalTitle = "测试按钮"; ObjectID = "Sg5-PH-5VJ"; */
+"Sg5-PH-5VJ.normalTitle" = "测试按钮";
